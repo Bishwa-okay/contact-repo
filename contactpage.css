@@ -1,0 +1,207 @@
+nav {
+    background-color: #063970;
+    height: 45px;
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 14px;
+    font-size: 38px;
+    height: 70px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0px 23px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 23px;
+}
+
+nav ul li a:hover {
+    background: #243342;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul ul li {
+    width: 150px;
+    display: list-item;
+    position: relative;
+    float: none;
+}
+
+.bg {
+    background-image: url("https://churchillsquareconsulting.com/wp-content/uploads/2015/11/Download-Light-grey-curves-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 900px;
+}
+
+h2{
+    color: #063970;
+    padding-left: 0px;
+    padding-top: 45px;
+    border-bottom: 1.8px solid #eeeee4;
+    padding-bottom: 12px;
+    margin-right: 392px;
+    margin-left: 65px;
+}
+
+img{
+    width: 380px;
+    height: auto;
+    transform: translate(1121px,-600px);
+}
+
+.box2{
+    background-color:white;
+    width: 380px;
+    transform: translate(1121px,45px);
+    color:#063970;
+    font-family: cursive;
+    padding-bottom: 60px;
+}
+
+.box2:hover{
+    background-color:black;
+    color: white;
+}
+
+#mission{
+    padding-right: 280px;
+    padding-top: 40px;
+    font-family: none;
+}
+
+#mission:hover{
+    color: white;
+}
+
+.p5{
+    margin-left: 60px;
+}
+
+#website{
+    transform: translate(1230px,-120px);
+    padding:10px 60px;
+    border: 0.1px solid white;
+    border-radius:10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#website:hover{
+    background-color: white;
+    color: black;
+}
+
+.box1{
+    font-family: cursive;
+    color: #063970;
+    padding-left: 62px;
+}
+
+.label{
+    font-weight: bold;
+}
+
+#p4{
+    font-weight: bold;
+}
+
+.frm1{
+    transform: translate(75px,-350px);
+    font-family: cursive;
+    color: #063970;
+    font-size: 20px;
+}
+
+#name{
+    padding: 5px 43px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+#email{
+    padding: 5px 43px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+#number{
+    padding: 5px 43px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+.frm2{
+    transform: translate(650px,-590px);
+    font-family: cursive;
+    color: #063970;
+    font-size: 20px;
+}
+
+#subject{
+    padding: 15px 50px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+#content{
+    padding: 40px 50px;
+    margin-top: 8px;
+}
+
+#submit{
+    padding:10px 60px;
+    border: 0.1px solid white;
+    border-radius:10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    transform: translate(-570px,20px);
+}
+
+#submit:hover{
+    background-color: white;
+    color: black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y:inherit;
+}
+
+.form{
+    height: 350px;
+    margin-bottom: 0;
+}
